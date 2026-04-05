@@ -13,10 +13,10 @@ if (session_status() === PHP_SESSION_NONE) {
 // DATABASE CONFIGURATION
 // ============================================
 
-define('DB_HOST', 'localhost');
-define('DB_USER', 'root');
-define('DB_PASS', '');
-define('DB_NAME', 'covid_system');
+define('DB_HOST', 'sql207.infinityfree.com'); // Localhost ki jagah ye
+define('DB_USER', 'if0_41584409');             // Root ki jagah ye
+define('DB_PASS', 'h9VmC4Sly4aLki');           // Apna original password yahan
+define('DB_NAME', 'if0_41584409_covid_db');    // Database ka pura naam yahan
 
 // Create database connection
 $conn = mysqli_connect(DB_HOST, DB_USER, DB_PASS, DB_NAME);
@@ -38,7 +38,7 @@ date_default_timezone_set('Asia/Karachi');
 
 // Site URLs and Names
 define('SITE_NAME', 'COVID-CARE');
-define('SITE_URL', 'http://localhost/covid-care/');
+define('SITE_URL', 'http://mubashirsiddiqui.infinityfreeapp.com/');
 
 // ============================================
 // ESSENTIAL FUNCTIONS (NOT IN FUNCTIONS.PHP)
